@@ -10,6 +10,7 @@ title_1 = input("Введите первый подзаголовок замет
 title_2 = input("Введите второй подзаголовок зпметки: ")
 titles = [title_1, title_2]
 
-note = [username, title, content, status, created_data, issue_data]
+note = [username, title, content, 
+        status, created_data, issue_data]
 note.append(titles)
 print(*note, sep = "\n")
